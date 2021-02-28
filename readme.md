@@ -36,7 +36,7 @@ The codes are based on [SHOT (ICML 2020, also source-free)](https://github.com/t
 
 ### Contact
 
-- [tntechlab@gmail.com](tntechlab@gmail.com)
+- [tntechlab@gmail.com](tntechlab@hotmail.com)
 
 
 
