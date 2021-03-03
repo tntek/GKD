@@ -26,7 +26,7 @@ The experiments are conducted on one GPU (NVIDIA RTX TITAN).
 
 ### Results
 
-![](./result/accuracy/result_office-home.jpg)
+![](./result/result_office-home.jpg)
 
 **The results of HTGKD is display under the folder './result/'.**
 
