@@ -1,6 +1,6 @@
 # GKD
 
-Code (pytorch) for ['Model Adaptation through Hypothesis Transfer with Gradual Knowledge Distillation']() on Office-31, Office-Home, VisDA-C. This paper has been submitted to IROS2021.
+Code (pytorch) for ['Model Adaptation through Hypothesis Transfer with Gradual Knowledge Distillation']() on Office-31, Office-Home, VisDA-C. This paper has been accepted by IROS2021.
 
 ### Preliminary
 
