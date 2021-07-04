@@ -307,7 +307,7 @@ def print_args(args):
     return s
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description='HTGKD')
+    parser = argparse.ArgumentParser(description='GKD')
     parser.add_argument('--gpu_id', type=str, nargs='?', default='0', help="device id to run")
     parser.add_argument('--s', type=int, default=0, help="source")
     parser.add_argument('--t', type=int, default=1, help="target")
