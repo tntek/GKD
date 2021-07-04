@@ -1,4 +1,4 @@
-# HTGKD
+# GKD
 
 Code (pytorch) for ['Model Adaptation through Hypothesis Transfer with Gradual Knowledge Distillation']() on Office-31, Office-Home, VisDA-C. This paper has been submitted to IROS2021.
 
@@ -17,18 +17,18 @@ The experiments are conducted on one GPU (NVIDIA RTX TITAN).
 
 1. First training model on the source data,  Office-Home dataset is shown here.
 
-> ~/anaconda3/bin/python htgkd_source.py --trte val --output ckpsmix2020r0/source/ --da uda --gpu_id 0 --dset office-home --max_epoch 50 --s 0 --seed 2020
+> ~/anaconda3/bin/python gkd_source.py --trte val --output ckpsmix2020r0/source/ --da uda --gpu_id 0 --dset office-home --max_epoch 50 --s 0 --seed 2020
 
 2. Then adapting source model to target domain, with only the unlabeled target data.
 
-> ~/anaconda3/bin/python htgkd_target.py --cls_par 0.05 --da uda --dset office-home --gpu_id 0 --s 0 --t 1 --output_src ckpsmix2020r0/source/ --output ckpsmix2020r0/target_mix/ --seed 2020
+> ~/anaconda3/bin/python gkd_target.py --cls_par 0.05 --da uda --dset office-home --gpu_id 0 --s 0 --t 1 --output_src ckpsmix2020r0/source/ --output ckpsmix2020r0/target_mix/ --seed 2020
 
 
 ### Results
 
 ![](./result/result_office-home.jpg)
 
-**The results of HTGKD is display under the folder './result/'.**
+**The results of GKD is display under the folder './result/'.**
 
 ### Acknowledgement
 
